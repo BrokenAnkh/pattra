@@ -23,7 +23,7 @@
     .\env\Scripts\deactivate # 关闭env环境
     ```
 ## 文档
-> [python 指南](https://docs.python.org/3/tutorial/index.html)
-> [python 语法手册](https://docs.python.org/3/reference/index.html)
-> [python 模块手册](https://docs.python.org/3/library/index.html)
+> [python 指南](https://docs.python.org/3/tutorial/index.html)  
+> [python 语法手册](https://docs.python.org/3/reference/index.html)  
+> [python 模块手册](https://docs.python.org/3/library/index.html)  
 > [python 3.52 中译](https://yiyibooks.cn/xx/python_352/index.html)
