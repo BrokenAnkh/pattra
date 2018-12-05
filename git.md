@@ -1,50 +1,64 @@
 # Git
+## 配置
+1. 安装
+1. 配置用户
+    ``` shell
 
-### file/dir
-```
-git add [filename/dirname]
-git rm [filename/dirname]
-git commit [filename/dirname] -m ["comment"]
-git status
-```
+    ```
+1. 配置ssh
+    ``` shell
+    cd ~
+    mkdir .ssh
+    cd .ssh
+    vim config
+    ssh-keygen -t rsa -C 'your content'
+    ```
 
-### checkout
-```
-git checkout [filename/dirname]
-```
+* file/dir
+    ```
+    git add [filename/dirname]
+    git rm [filename/dirname]
+    git commit [filename/dirname] -m ["comment"]
+    git status
+    ```
 
-### branch:
-``` s
-git checkout -b [branchname]
-git branch -v 
-git branch [branchname]
-git branch -d [branchname]
-git diff [branchname]
-git merge [branchname]
-git fetch origin master:[branchname]
-git pull origin master:[branchname]
-```
+* checkout
+    ```
+    git checkout [filename/dirname]
+    ```
 
-### remote
-```
-git remote -v
-```
+* branch:
+    ``` s
+    git checkout -b [branchname]
+    git branch -v 
+    git branch [branchname]
+    git branch -d [branchname]
+    git diff [branchname]
+    git merge [branchname]
+    git fetch origin master:[branchname]
+    git pull origin master:[branchname]
+    ```
 
-### log
-```
-git log
-git reflog
-```
+* remote
+    ```
+    git remote -v
+    ```
 
-### version switch
-```
-git reset --hard [versionid]
-```
+* log
+    ```
+    git log
+    git reflog
+    ```
 
-### gui
-```
-gitk
-```
+* version switch
+    ```
+    git reset --hard [versionid]
+    ```
+
+* gui
+    ```
+    gitk
+    ```
 
 ## 参考链接
 > [Git 官网](https://git-scm.com/)  
