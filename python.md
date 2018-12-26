@@ -2,7 +2,7 @@
 ## 配置
 * 安装python
 * 配置环境变量
-    ``` path
+    ```
     PYTHON_HOME=python_package
     PATH=%PATH%;%PYTHON_HOME%;%PYTHON_HOME%\Scripts
     ```
@@ -14,6 +14,9 @@
     [华中理工大学](http://pypi.hustunique.com/)
     [山东理工大学](http://pypi.sdutlinux.org/)
     [豆瓣](http://pypi.douban.com/simple/)
+
+    * windows -- [~/pip/pip.ini](./附件/pip.ini)
+    * linux -- [~/.pip/pip.conf](./附件/pip.conf)
 * 配置virtualenv
     ``` powershell
     pip install virtualenv # 安装env环境

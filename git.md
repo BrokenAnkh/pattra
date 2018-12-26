@@ -27,8 +27,8 @@
     git checkout [filename/dirname]
     ```
 
-* branch:
-    ``` s
+* branch
+    ```
     git checkout -b [branchname]
     git branch -v 
     git branch [branchname]
