@@ -13,7 +13,16 @@
     vim config
     ssh-keygen -t rsa -C 'your content'
     ```
-
+    config示例：
+    ``` config
+    # gitlab
+    Host github.com
+    Port 22
+    HostName github.com
+    PreferredAuthentications publickey
+    IdentityFile C:/Users/xiaohaozi/.ssh/id_github_rsa
+    User posuo
+    ```
 * file/dir
     ```
     git add [filename/dirname]
