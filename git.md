@@ -43,6 +43,8 @@
     git branch [branchname]
     git branch -d [branchname]
     git diff [branchname]
+    git diff --name-only version1 version2
+    git diff --name-only HEAD~ HEAD
     git merge [branchname]
     git fetch origin master:[branchname]
     git pull origin master:[branchname]
